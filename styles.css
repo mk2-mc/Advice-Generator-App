@@ -48,6 +48,15 @@ body {
 
 .advice-quote {
   margin-top: 1.5rem;
+  quotes: "“" "”" "‘" "’";
+}
+
+.advice-quote::before {
+  content: open-quote;
+}
+
+.advice-quote::after {
+  content: close-quote;
 }
 
 .divider {

@@ -12,8 +12,10 @@ function getQuote() {
     })
     .then((response) => {
       id.innerHTML = `Advice #${response.slip.id}`;
-      quote.innerHTML = response.slip.advice;
+      quote.innerHTML = `“${response.slip.advice}”`;
     });
 }
 
 button.addEventListener("click", getQuote);
+
+getQuote();

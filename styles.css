@@ -48,7 +48,7 @@ body {
 
 .advice-quote {
   margin-top: 1.5rem;
-  quotes: "“" "”" "‘" "’";
+  quotes: "“" "”";
 }
 
 .advice-quote::before {

@@ -67,7 +67,6 @@ body {
   background-color: var(--clr-primary-300);
   cursor: pointer;
   border: none;
-  outline: none;
 }
 
 .button:focus-visible, 
